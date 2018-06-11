@@ -15,7 +15,6 @@ public class InventoryDbHelper extends SQLiteOpenHelper {
     private static final String TEXT_TYPE = " TEXT";
     private static final String REAL_TYPE = " REAL";
     private static final String INTEGER_TYPE = " INTEGER";
-    //private static final String BLOB_TYPE = " BLOB";
     private static final String NOT_NULL = " NOT NULL";
     private static final String COMMA_SEP = ", ";
 
