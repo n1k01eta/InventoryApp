@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class InventoryDbHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "Store.db";
-
+    
     private static final String TEXT_TYPE = " TEXT";
     private static final String REAL_TYPE = " REAL";
     private static final String INTEGER_TYPE = " INTEGER";
