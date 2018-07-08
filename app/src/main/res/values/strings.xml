@@ -1,3 +1,96 @@
 <resources>
     <string name="app_name">Inventory App</string>
+    //Text for the empty view
+    <string name="empty_view_title_text">Your Database is empty</string>
+    <string name="empty_view_subtitle_text">Click on the ADD button to add products</string>
+    //Text for the Add button
+    <string name="add">Add</string>
+
+    //Text for the app bar title
+    <string name="activity_title_new_product">Add a new Product</string>
+    <string name="activity_title_edit_product">Edit Product</string>
+    <string name="activity_title_preview_product">Preview Product</string>
+
+    <!-- Label for the Category-->
+    <string name="category">Category</string>
+
+    <!-- Label for dropdown menu option if the product's category is unknown [CHAR LIMIT=20] -->
+    <string name="category_unknown">Unknown</string>
+
+    <!-- Labels for dropdown menu option of the product's category [CHAR LIMIT=20] -->
+    <string name="category_desktop">Desktop</string>
+    <string name="category_game">Game</string>
+    <string name="category_headset">Headset</string>
+    <string name="category_keyboard">Keyboard</string>
+    <string name="category_laptop">Laptop</string>
+    <string name="category_mouse">Mouse</string>
+    <string name="category_phone">Phone</string>
+    <string name="category_router">Router</string>
+    <string name="category_speaker">Speaker</string>
+    <string name="category_tablet">Tablet</string>
+    <string name="category_watch">Watch</string>
+
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_supplier">Supplier\'s Name</string>
+    <string name="hint_supplier_phone">Supplier\' Phone Number</string>
+
+    <string name="euro_price">EUR</string>
+
+    //Toast message for delete all data [CHAR LIMIT=NONE]
+    <string name="delete_all">All data deleted</string>
+
+    //Text for the action menus or buttons in the Product Detail Layout
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All</string>
+
+    <string name="action_save_data">Save</string>
+    <string name="action_delete">Delete Product</string>
+
+    <string name="action_edit_data">Edit Product</string>
+
+    <string name="button_increase">+</string>
+    <string name="button_decrease">-</string>
+
+    <string name="call_supplier">Order</string>
+
+    <string name="sale">Sale</string>
+
+    //Text for Toast messages when SALE button is clicked
+    <string name="sale_successful">Product sale successful</string>
+    <string name="sale_failed">Product sale failed</string>
+    <string name="out_of_stock">Product is out of stock, please order</string>
+
+    //Text for Toast messages from the InventoryProvider
+    <string name="name_required">Product name is a required field.</string>
+    <string name="category_not_valid">Product category is not valid.</string>
+    <string name="quantity_not_valid">Quantity is empty or is not valid.</string>
+    <string name="price_not_valid">Price is empty or is not valid.</string>
+    <string name="supplier_required">Supplier is a required field.</string>
+    <string name="phone_required">Phone number is a required field.</string>
+    <string name="phone_not_valid">Phone number is not valid.</string>
+    <string name="phone_length"> Length must be 10.</string>
+    <string name="phone_six_nine"> Phone must start with 69 digits.</string>
+    <string name="phone_two_sixnine">  Must start with 2 or a 69.</string>
+    <string name="phone_digits"> Phone contains no digits.</string>
+
+    //Text for EditorActivity
+    <string name="editor_insert_product_failed">Adding new product failed</string>
+    <string name="editor_insert_product_successful">Adding new product successful</string>
+    <string name="editor_update_product_failed">Update product failed</string>
+    <string name="editor_update_product_successful">Update product successful</string>
+    <string name="editor_delete_successful">Product Deleted Successful</string>
+    <string name="editor_delete_failed">Delete Product Failed</string>
+
+    //text for the AlertDialog messages: discard, keep editing, delete and cancel
+    <string name="unsaved_changes_dialog_msg">You have unsaved changes</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Confirm Delete</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    //text for no phone app
+    <string name="no_phone_app">No phone app found</string>
 </resources>
